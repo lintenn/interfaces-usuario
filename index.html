@@ -1,9 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Formulario</title>
-</head>
-<body>
-<h1>Hola mundo</h1>
-</body>
+<!-- El idioma -->
+    <head>
+
+        <title>Formulario</title>
+    </head>
+    <body>
+        <h1>Hola mundo</h1>
+
+        <form action="" >
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" title='Introduce
+                tu nombre' autocomplete="name" required/>
+            </p>
+
+            <p>
+                <label for="apellido">Primer apellido:</label>
+                <input type="text" name="apellido" id="apellido" title='Introduce
+                tu apellido' autocomplete="surname"/>
+            </p>
+
+            <p>
+                <label for="fecha">Fecha de nacimiento:</label>
+                <input type="date" name="fecha" id="fecha" title='Introduce
+                tu fecha de nacimiento' autocomplete="date"/>
+            </p>
+
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" id="email" title='Introduce
+                tu e-mail' autocomplete="e-mail"/>
+            </p>
+
+            <p>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" name="telefono" id="telefono" title='Introduce
+                tu telefono' autocomplete="phone" placeholder="123-456-789"/>
+            </p>
+
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" title='Introduce
+                tu password' autocomplete="new-password" required/>
+            </p>
+
+            <p>
+                <label for="color">Color favorito:</label>
+                <input type="text" name="color" id="color" title='Introduce
+                tu color favorito' autocomplete="color"/>
+            </p>
+
+            <input type="submit" value="Submit" />
+        </form>
+
+    </body>
 </html>
